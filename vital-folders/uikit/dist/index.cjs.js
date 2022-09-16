@@ -3027,7 +3027,7 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://dex.bridgeswap.app",
+                href: "https://dex.ttndex.com",
             },
             {
                 label: "Liquidity",
@@ -3135,7 +3135,7 @@ var links = [
         items: [
             {
                 label: "Voting",
-                href: "https://voting.bridgeswap.app",
+                href: "https://voting.ttndex.com",
             },
             {
                 label: "Github",
@@ -3143,7 +3143,7 @@ var links = [
             },
             {
                 label: "Docs",
-                href: "https://docs.bridgeswap.app",
+                href: "https://docs.ttndex.com",
             },
             {
                 label: "Blog",

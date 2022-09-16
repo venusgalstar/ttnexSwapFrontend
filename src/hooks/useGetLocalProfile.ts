@@ -3,8 +3,8 @@ import Cookies from 'js-cookie'
 import { useActiveWeb3React } from 'hooks'
 
 const initialState = {
-  profileLink: 'https://bridgeswap.app/profile',
-  noProfileLink: 'https://bridgeswap.app/profile',
+  profileLink: 'https://ttndex.com/profile',
+  noProfileLink: 'https://ttndex.com/profile',
 }
 
 /**

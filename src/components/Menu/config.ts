@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://bridgeswap.app/',
+    href: 'https://ttndex.com/',
   },
   {
     label: 'Trade',
@@ -24,17 +24,17 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://bridgeswap.app/farms',
+    href: 'https://ttndex.com/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://bridgeswap.app/pools',
+    href: 'https://ttndex.com/pools',
   },
   {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: 'https://bridgeswap.app/lottery',
+    href: 'https://ttndex.com/lottery',
     // status: {
     //   text: 'WIN',
     //   color: 'warning',
@@ -43,7 +43,7 @@ const config: MenuEntry[] = [
   {
     label: 'Referral Program',
     icon: 'ReferralIcon',
-    href: 'https://bridgeswap.app/referral'
+    href: 'https://ttndex.com/referral'
   },
   // {
   //   label: 'Collectibles',
@@ -106,7 +106,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Team',
-        href: 'https://docs.bridgeswap.app/bridgeswap/our-team',
+        href: 'https://docs.ttndex.com/bridgeswap/our-team',
       },
       // {
       //   label: 'Contact',
@@ -122,7 +122,7 @@ const config: MenuEntry[] = [
       // },
       // {
       //   label: 'Docs',
-      //   href: 'https://docs.bridgeswap.app',
+      //   href: 'https://docs.ttndex.com',
       // },
       // {
       //   label: 'Blog',

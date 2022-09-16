@@ -1,7 +1,7 @@
 # Contributing to the TTNET  ❎
 
 Thanks for taking the time to contribute !
-You can start by reading our [Contribution guidelines](https://docs.bridgeswap.app/code/contributing) first.
+You can start by reading our [Contribution guidelines](https://docs.ttndex.com/code/contributing) first.
 
 ## Setup
 

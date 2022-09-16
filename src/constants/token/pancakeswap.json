@@ -7,7 +7,7 @@
     "patch": 0
   },
   "tags": {},
-  "logoURI": "https://dex.bridgeswap.app/images/bridgeswap.png",
+  "logoURI": "https://dex.ttndex.com/images/bridgeswap.png",
   "keywords": ["pancake", "default"],
   "tokens": [
     {
@@ -16,7 +16,7 @@
       "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://dex.bridgeswap.app/images/coins/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d.png"
+      "logoURI": "https://dex.ttndex.com/images/coins/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d.png"
     },
     {
       "name": "TTNET Token",
@@ -24,7 +24,7 @@
       "address": "0x167EE66eF60D43B23b7cFa819f757beD4f513A94",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://dex.bridgeswap.app/images/coins/bris.png"
+      "logoURI": "https://dex.ttndex.com/images/coins/bris.png"
     },
     {
       "name": "Decentralized USD",
@@ -32,7 +32,7 @@
       "address": "0xd17479997F34dd9156Deef8F95A52D81D265be9c",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://dex.bridgeswap.app/images/coins/0xd17479997F34dd9156Deef8F95A52D81D265be9c.svg"
+      "logoURI": "https://dex.ttndex.com/images/coins/0xd17479997F34dd9156Deef8F95A52D81D265be9c.svg"
     },
     {
       "name": "BTCB Token",
@@ -40,7 +40,7 @@
       "address": "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://dex.bridgeswap.app/images/coins/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c.png"
+      "logoURI": "https://dex.ttndex.com/images/coins/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c.png"
     },
     {
       "name": "BUSD Token",
@@ -48,7 +48,7 @@
       "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://dex.bridgeswap.app/images/coins/0xe9e7cea3dedca5984780bafc599bd69add087d56.png"
+      "logoURI": "https://dex.ttndex.com/images/coins/0xe9e7cea3dedca5984780bafc599bd69add087d56.png"
     },
     {
       "name": "Ethereum Token",
@@ -56,7 +56,7 @@
       "address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://dex.bridgeswap.app/images/coins/0x2170ed0880ac9a755fd29b2688956bd959f933f8.png"
+      "logoURI": "https://dex.ttndex.com/images/coins/0x2170ed0880ac9a755fd29b2688956bd959f933f8.png"
     },
     {
       "name": "Tether USD",
@@ -64,7 +64,7 @@
       "address": "0x55d398326f99059ff775485246999027b3197955",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://dex.bridgeswap.app/images/coins/0x55d398326f99059ff775485246999027b3197955.png"
+      "logoURI": "https://dex.ttndex.com/images/coins/0x55d398326f99059ff775485246999027b3197955.png"
     },
     
     {
@@ -73,7 +73,7 @@
       "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://dex.bridgeswap.app/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
+      "logoURI": "https://dex.ttndex.com/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
     }
     
   ]
