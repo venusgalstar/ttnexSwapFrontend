@@ -21,7 +21,7 @@
     {
       "name": "TTNET Token",
       "symbol": "BRIS",
-      "address": "0x79De52900178bD90c98E278cC30A635E65B18B1A",
+      "address": "0x167EE66eF60D43B23b7cFa819f757beD4f513A94",
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://dex.bridgeswap.app/images/coins/bris.png"
