@@ -1,4 +1,4 @@
-# Contributing to the TTNET  ❎
+# Contributing to the TTNDEX  ❎
 
 Thanks for taking the time to contribute !
 You can start by reading our [Contribution guidelines](https://docs.ttndex.com/code/contributing) first.
