@@ -48,8 +48,8 @@ export default function SyrupWarningModal({
               </Text>
               <Text color="failure">
                 {transactionType === 'Buying'
-                  ? 'You will not receive BRIS rewards for holding purchased SOUP.'
-                  : 'You will need to buy back the same amount of SOUP to be able to convert back to BRIS.'}
+                  ? 'You will not receive TTNP rewards for holding purchased SOUP.'
+                  : 'You will need to buy back the same amount of SOUP to be able to convert back to TTNP.'}
               </Text>
             </>
           )}

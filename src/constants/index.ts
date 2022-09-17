@@ -7,7 +7,7 @@ type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
-// BRIS CA = 0x167EE66eF60D43B23b7cFa819f757beD4f513A94
+// TTNP CA = 0x167EE66eF60D43B23b7cFa819f757beD4f513A94
 
 export const CAKE = new Token(ChainId.MAINNET, '0x167EE66eF60D43B23b7cFa819f757beD4f513A94', 18, 'TTNP', 'TTNEX Token')
 
