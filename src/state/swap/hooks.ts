@@ -87,7 +87,7 @@ export function tryParseAmount(value?: string, currency?: Currency): CurrencyAmo
 }
 
 const BAD_RECIPIENT_ADDRESSES: string[] = [
-  '0x6d32088ae9283487A1eC84C02d02466DcB684D04', // TTNP factory
+  '0x4F1E047aDDe024F1C98C2A9467c6daCcaF080014', // TTNP factory
   '0xf164fC0Ec4E93095b804a4795bBe1e041497b92a', // v2 router 01
   '0x9F49340A9B00dD45C8354291329F328623422E37', // BridgeSwap router
 ]
