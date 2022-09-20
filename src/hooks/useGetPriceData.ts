@@ -24,7 +24,7 @@ const useGetPriceData = () => {
   const [data, setData] = useState<ApiResponse | null>(null)
   const busdaddr = "0xe9e7cea3dedca5984780bafc599bd69add087d56";
   const wbnbAddr = "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c";
-  const brisBnbLpAddr = "0xe6f046110c2335687d5a5d41592c2f9b9cc0a126";
+  const brisBnbLpAddr = "0xa2cd9d0b9091a30a78e9ec92eb77478cee47ebf1";
   const bnbBusdLpAddr = "0x5E7239dFc60D54a4c469bfb3a1804C27a4A214D5";
   const BIG_TEN = new BN(10);
   
@@ -66,7 +66,7 @@ const useGetPriceData = () => {
 export const useGetPriceFromFarm = () => {
   const busdaddr = "0xe9e7cea3dedca5984780bafc599bd69add087d56";
   const wbnbAddr = "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c";
-  const brisBnbLpAddr = "0xe6f046110c2335687d5a5d41592c2f9b9cc0a126";
+  const brisBnbLpAddr = "0xa2cd9d0b9091a30a78e9ec92eb77478cee47ebf1";
   const bnbBusdLpAddr = "0x5E7239dFc60D54a4c469bfb3a1804C27a4A214D5";
 
   console.log("asdfe");
