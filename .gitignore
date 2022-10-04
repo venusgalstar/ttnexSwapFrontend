@@ -37,4 +37,4 @@ cypress/screenshots
 cypress/fixtures/example.json
 
 .eslintcache
-build.zip
+*.zip
