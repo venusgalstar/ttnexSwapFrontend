@@ -9,7 +9,7 @@ type ChainTokenList = {
 
 // TTNP CA = 0x501345C098030AD7EBD6A33ce44E020033Fe0f79
 
-export const CAKE = new Token(ChainId.MAINNET, '0x501345C098030AD7EBD6A33ce44E020033Fe0f79', 18, 'TTNP', 'TTNEX Token')
+export const CAKE = new Token(ChainId.MAINNET, '0x501345C098030AD7EBD6A33ce44E020033Fe0f79', 18, 'TTNP', 'TTNDEX Token')
 
 export const WBNB = new Token(ChainId.MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'WBNB', 'Wrapped BNB')
 export const DAI = new Token(ChainId.MAINNET, '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3', 18, 'DAI', 'Dai Stablecoin')
