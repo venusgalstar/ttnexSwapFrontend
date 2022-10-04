@@ -3311,7 +3311,8 @@ var Accordion = function (_a) {
             isOpen ? React.createElement(Icon$1w, null) : React.createElement(Icon$1x, null)),
         React.createElement(AccordionContent, { isOpen: isOpen, isPushed: isPushed, maxHeight: React.Children.count(children) * MENU_ENTRY_HEIGHT }, children)));
 };
-var Accordion$1 = React.memo(Accordion, function (prev, next) { return prev.isPushed === next.isPushed && prev.isActive === next.isActive; });
+// var Accordion$1 = React.memo(Accordion, function (prev, next) { return prev.isPushed === next.isPushed && prev.isActive === next.isActive; });
+var Accordion$1 = Accordion;
 var templateObject_1$a, templateObject_2$3;
 
 var MenuLink = function (_a) {
