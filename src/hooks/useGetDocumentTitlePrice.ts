@@ -22,11 +22,13 @@ const useGetDocumentTitlePrice = () => {
 
   const cakePriceBusd = useGetPriceFromFarm()
 
+  const cakePriceBusdString = cakePriceBusd.toLocaleString('en-US', {
+    minimumFractionDigits: 3,
+    maximumFractionDigits: 3,
+  }) ?? '0.000'
+
   useEffect(() => {
-    document.title = `TTNDEX - $${cakePriceBusd.toLocaleString('en-US', {
-      minimumFractionDigits: 3,
-      maximumFractionDigits: 3,
-    })}`
-  }, [cakePriceBusd])
+    document.title = `TTNDEX - $${cakePriceBusdString}`
+  }, [cakePriceBusdString])
 }
 export default useGetDocumentTitlePrice

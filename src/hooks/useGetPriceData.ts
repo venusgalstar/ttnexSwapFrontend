@@ -27,7 +27,7 @@ const useGetPriceData = () => {
   const ttnpBnbLpAddr = "0xC14B58920A46bB3462d304fE9E6824F73af2eF80"; // BNB-TTNP (TTNDEX)
   const bnbBusdLpAddr = "0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16"; // BNB-BUSD (Pancake)
   const BIG_TEN = new BN(10);
-  
+
   const busdContract = useTokenContract(busdaddr, false);
   const busdAmount = new BN(useSingleCallResult(busdContract, "balanceOf", [bnbBusdLpAddr])?.result?.[0]?.toString());
   const wbnbContract = useTokenContract(wbnbAddr, false);
@@ -40,10 +40,10 @@ const useGetPriceData = () => {
   const brisAmount = new BN(useSingleCallResult(brisContract, "balanceOf", [ttnpBnbLpAddr])?.result?.[0]?.toString());
   wbnbAmount = new BN(useSingleCallResult(wbnbContract, "balanceOf", [ttnpBnbLpAddr])?.result?.[0]?.toString());
   const brisPriceInBnb = wbnbAmount?.div(brisAmount);
-  
+
   const brisPriceInBusd = bnbPriceInBusd.times(brisPriceInBnb);
   console.log("[DAVID] ", bnbPriceInBusd?.toString(), brisPriceInBnb?.toString(), brisPriceInBusd.toString());
-  
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -69,8 +69,6 @@ export const useGetPriceFromFarm = () => {
   const ttnpBnbLpAddr = "0xC14B58920A46bB3462d304fE9E6824F73af2eF80"; // BNB-TTNP (TTNDEX)
   const bnbBusdLpAddr = "0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16"; // BNB-BUSD (Pancake)
 
-  console.log("asdfe");
-  
   const busdContract = useTokenContract(busdaddr, false);
   const busdAmount = new BN(useSingleCallResult(busdContract, "balanceOf", [bnbBusdLpAddr])?.result?.[0]?.toString());
   const wbnbContract = useTokenContract(wbnbAddr, false);
@@ -81,10 +79,9 @@ export const useGetPriceFromFarm = () => {
   const brisAmount = new BN(useSingleCallResult(brisContract, "balanceOf", [ttnpBnbLpAddr])?.result?.[0]?.toString());
   wbnbAmount = new BN(useSingleCallResult(wbnbContract, "balanceOf", [ttnpBnbLpAddr])?.result?.[0]?.toString());
   const brisPriceInBnb = wbnbAmount?.div(brisAmount);
-  
+
   const brisPriceInBusd = bnbPriceInBusd.times(brisPriceInBnb);
-  console.log("[DAVID] ", bnbPriceInBusd?.toString(), brisPriceInBnb?.toString(), brisPriceInBusd.toString());
-  
+
   return parseFloat(brisPriceInBusd?.toString());
 }
 
