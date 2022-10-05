@@ -31,15 +31,11 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: 'https://ttndex.com/pools',
   },
-  // {
-  //   // label: 'Lottery',
-  //   // icon: 'TicketIcon',
-  //   // href: 'https://ttndex.com/lottery',
-  //   // status: {
-  //   //   text: 'WIN',
-  //   //   color: 'warning',
-  //   // },
-  // },
+  {
+    label: 'Lottery',
+    icon: 'TicketIcon',
+    href: 'https://ttndex.com/lottery',
+  },
   {
     label: 'Referral Program',
     icon: 'ReferralIcon',
