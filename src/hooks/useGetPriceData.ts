@@ -25,7 +25,7 @@ const useGetPriceData = () => {
   const busdaddr = "0xe9e7cea3dedca5984780bafc599bd69add087d56";
   const wbnbAddr = "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c";
   const ttnpBnbLpAddr = "0xC14B58920A46bB3462d304fE9E6824F73af2eF80"; // BNB-TTNP (TTNDEX)
-  const bnbBusdLpAddr = "0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16"; // BNB-BUSD (Pancake)
+  const bnbBusdLpAddr = "0x12c208751eeB3540d473194cD2467303395E1211"; // BNB-BUSD (TTNDEX)
   const BIG_TEN = new BN(10);
 
   const busdContract = useTokenContract(busdaddr, false);
@@ -67,7 +67,7 @@ export const useGetPriceFromFarm = () => {
   const busdaddr = "0xe9e7cea3dedca5984780bafc599bd69add087d56";
   const wbnbAddr = "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c";
   const ttnpBnbLpAddr = "0xC14B58920A46bB3462d304fE9E6824F73af2eF80"; // BNB-TTNP (TTNDEX)
-  const bnbBusdLpAddr = "0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16"; // BNB-BUSD (Pancake)
+  const bnbBusdLpAddr = "0x12c208751eeB3540d473194cD2467303395E1211"; // BNB-BUSD (TTNDEX)
 
   const busdContract = useTokenContract(busdaddr, false);
   const busdAmount = new BN(useSingleCallResult(busdContract, "balanceOf", [bnbBusdLpAddr])?.result?.[0]?.toString());
