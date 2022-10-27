@@ -26,11 +26,11 @@ const config: MenuEntry[] = [
     icon: 'FarmIcon',
     href: 'https://ttndex.com/farms',
   },
-  // {
-  //   label: 'Pools',
-  //   icon: 'PoolIcon',
-  //   href: 'https://ttndex.com/pools',
-  // },
+  {
+    label: 'Pools',
+    icon: 'PoolIcon',
+    href: 'https://ttndex.com/pools',
+  },
   {
     label: 'Lottery',
     icon: 'TicketIcon',
