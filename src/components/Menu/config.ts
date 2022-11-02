@@ -44,7 +44,7 @@ const config: MenuEntry[] = [
   {
     label: 'Bank',
     icon: 'BankIcon',
-    href: 'https://ttnbank.web.app',
+    href: 'https://ttndex.com/bank'
   },
   // {
   //   label: 'Collectibles',
