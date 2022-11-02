@@ -37,7 +37,7 @@ const config: MenuEntry[] = [
     href: 'https://ttndex.com/lottery',
   },
   {
-    label: 'Referral Program',
+    label: 'Referral',
     icon: 'ReferralIcon',
     href: 'https://ttndex.com/referral'
   },
