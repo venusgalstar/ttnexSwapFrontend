@@ -3053,7 +3053,7 @@ var links = [
         href: "/lottery",
     },
     {
-        label: "Referral Program",
+        label: "Referral",
         icon: "ReferralIcon",
         href: "/referral",
     },
