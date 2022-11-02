@@ -41,6 +41,11 @@ const config: MenuEntry[] = [
     icon: 'ReferralIcon',
     href: 'https://ttndex.com/referral'
   },
+  {
+    label: 'Bank',
+    icon: 'BankIcon',
+    href: 'https://mango-finance-2022.web.app',
+  },,
   // {
   //   label: 'Collectibles',
   //   icon: 'NftIcon',
