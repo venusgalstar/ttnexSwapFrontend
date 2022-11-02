@@ -45,7 +45,7 @@ const config: MenuEntry[] = [
     label: 'Bank',
     icon: 'BankIcon',
     href: 'https://mango-finance-2022.web.app',
-  },,
+  },
   // {
   //   label: 'Collectibles',
   //   icon: 'NftIcon',
